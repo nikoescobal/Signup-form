@@ -1,13 +1,99 @@
-
+html{
+    background-color: rgb(236, 238, 241);
+}
 .submit-button {
-    width: 90px;
+    width: 110px;
     height: 33px;
+    background-color: #0077c5;
+    color: white;
 }
 .navbar{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
-    padding: 1%;
 }
 
+.header{
+    
+    justify-content: center;
+    margin: auto;
+    border: 2px solid rgb(199, 199, 199);
+    display: block;
+    height: 605px;
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-bottom: none;
+    border-radius: 2px;
+    
+}
+h1{
+    font-size: 24px;
+    color:#4c4c4c
+}
+form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 25px;
+    display: block;
+    color: rgb(71, 69, 69);
+    }
 
+form input{
+    
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 0.1ch;
+    margin-top: 10px;
+}
+.form-footer{
+    padding: 30px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.4rem;
+    color: #757575;
+}
+h6 {
+    display: block;
+    margin: auto;
+     text-align: center;
+     padding: 16px;
+     margin: -30px -30px;
+     font-size: 10px;
+     font-family:Arial, Helvetica, sans-serif;
+     background-color: #ECEEF1;
+     color: #8d9096;
+}
+.create-account{
+width: 102%;
+margin-top: 30px;
+padding: 14px 16px;
+background: #0077C5;
+border-radius: 3px;
+color: white;
+font-size: 16px;
+
+}
+footer {
+    text-align: center;
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.2rem;
+}
+footer ul li{
+    display: inline;
+    padding: 5px;
+}
+footer p{   
+    justify-content: center;
+    color: #4b4a4a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.brands{
+    text-align: center;
+}
