@@ -1,99 +1,147 @@
-html{
-    background-color: rgb(236, 238, 241);
-}
-.submit-button {
-    width: 110px;
-    height: 33px;
-    background-color: #0077c5;
-    color: white;
-}
-.navbar{
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.header{
-    
-    justify-content: center;
-    margin: auto;
-    border: 2px solid rgb(199, 199, 199);
-    display: block;
-    height: 605px;
-    width: 350px;
-    padding: 30px;
-    background-color: white;
-    border-bottom: none;
-    border-radius: 2px;
-    
+html {
+  background-color: rgb(236, 238, 241);
 }
-h1{
-    font-size: 24px;
-    color:#4c4c4c
-}
-form label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-top: 25px;
-    display: block;
-    color: rgb(71, 69, 69);
-    }
 
-form input{
-    
-    width: 100%;
-    height: 30px;
-    border-radius: 3px;
-    border-width: 0.1ch;
-    margin-top: 10px;
+a {
+  text-decoration: none;
+  color: #0077c5;
 }
-.form-footer{
-    padding: 30px;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    font-style: italic;
-    line-height: 1.4rem;
-    color: #757575;
+
+.signin-button {
+  font-size: 0.9rem;
+  margin-left: 8px;
+  margin-right: 30px;
+  padding: 9px 30px;
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.navbar {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-form {
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid rgb(199, 199, 199);
+  display: block;
+  width: 380px;
+  background-color: white;
+  border-radius: 2px;
+  padding-bottom: 0;
+}
+
+form {
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #4c4c4c;
+}
+form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 25px;
+  display: block;
+  color: rgb(71, 69, 69);
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  border-width: 0.1ch;
+  margin-top: 10px;
+}
+.form-bottom {
+  padding: 30px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+  color: #757575;
 }
 h6 {
-    display: block;
-    margin: auto;
-     text-align: center;
-     padding: 16px;
-     margin: -30px -30px;
-     font-size: 10px;
-     font-family:Arial, Helvetica, sans-serif;
-     background-color: #ECEEF1;
-     color: #8d9096;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eceef1;
+  color: #8d9096;
+  width: 100%;
 }
-.create-account{
-width: 102%;
-margin-top: 30px;
-padding: 14px 16px;
-background: #0077C5;
-border-radius: 3px;
-color: white;
-font-size: 16px;
-
+.create-account {
+  width: 102%;
+  margin-top: 30px;
+  padding: 14px 16px;
+  background: #0077c5;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
 }
 footer {
-    text-align: center;
-    display:inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    line-height: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.2rem;
 }
-footer ul li{
-    display: inline;
-    padding: 5px;
+footer ul li {
+  display: inline;
+  padding: 5px;
 }
-footer p{   
-    justify-content: center;
-    color: #4b4a4a;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+footer p {
+  justify-content: center;
+  color: #4b4a4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
-.brands{
-    text-align: center;
+
+#brand-container {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#brandlogos {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+}
+
+.gray {
+  color: #909092;
+}
+
+#title {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.small {
+  font-size: smaller;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.medium {
+  font-size: 14px;
 }

@@ -12,48 +12,53 @@
   </head>
   <body>
     <div class="navbar">
-      <p>Already have an Intuit account?</p>
-      <a href="#">I forgot my ID or pasword</a>
-      <button class="submit-button" type="submit" name="submit">Sign in</button>
-    </div>
-    <div class="brands">
-      <img src="images/intuit.png" alt="" />
-      <div class="brandlogos">
-        <img src="images/mint.png" alt="mint"/>
-        <img src="images/quickbooks.png" alt="quickbooks"/>
-        <img src="images/turbotax.png" alt="turbotax"/>
+      <div>
+        <p class="gray">Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or Password</a>
       </div>
+
+      <button class="signin-button" name="signin">Sign in</button>
     </div>
-    <form class="header">
-      <h1>Create an Intuit account</h1>
-      <p>One account for everything Intuit, including Mint.</p>
-      <a href="">Learn more</a>
-      
-        <label>
+    <div id="brand-container">
+      <img src="assets/intuit.png" alt="" />
+      <img id="brandlogos" src="assets/logos.png" alt="" />
+    </div>
+    <div class="main-form">
+      <form>
+        <div class="title-container">
+          <h1 id="title">Create an Intuit account</h1>
+          <p class="medium">
+            One account for everything Intuit, including Mint.
+          </p>
+          <a class="small" href="">Learn more</a>
+        </div>
+
+        <label for="email">
           Email adress
-          <input type="email" name="email" id="email" />
         </label>
-        <label
-          >Phone(recommended)
-          <input type="tel" name="tel" id="tel"/>
-        </label>
-        <label
-          >Password
-          <input type="password" name="password" id="password" />
-        </label>
+        <input type="email" name="email" id="email" />
+        <label for="phone">Phone(recommended) </label>
+        <input type="tel" name="tel" id="phone" />
+
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password" />
+
         <button class="create-account" type="submit" name="submit">
           Create Account
         </button>
-      
-      <p class="form-footer"> 
-        By clicking Create account, you agree to our <a href="">Terms</a> and
-        have read and acknowledge our <a href="">Privacy Statement.</a>
-      </p>
+        <div class="form-bottom">
+          <p>
+            By clicking Create account, you agree to our
+            <a href="">Terms</a> and have read and acknowledge our
+            <a href="">Privacy Statement.</a>
+          </p>
+        </div>
+      </form>
       <h6>
         Invisible reCAPTCHA by <a href="">Google Privacy Policy</a>and
-        <a href="">Terms of Use.</a><br>
+        <a href="">Terms of Use.</a><br />
       </h6>
-    </form>
+    </div>
     <footer>
       <ul>
         <li><a href="#">Legal</a></li>
@@ -61,9 +66,13 @@
         <li><a href="#">Security</a></li>
       </ul>
       <p>
-        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
       </p>
-      <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-       </footer>
+      <p>
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
   </body>
 </html>
