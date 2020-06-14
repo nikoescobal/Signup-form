@@ -23,6 +23,7 @@ a {
   border-radius: 5px;
   border: none;
 }
+
 .navbar {
   padding-top: 10px;
   display: flex;
@@ -52,6 +53,7 @@ h1 {
   font-size: 24px;
   color: #4c4c4c;
 }
+
 form label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -67,15 +69,16 @@ form input {
   border-width: 0.1ch;
   margin-top: 10px;
 }
+
 .form-bottom {
   padding: 30px;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+   font-size: 12px;
   text-align: center;
   font-style: italic;
   color: #757575;
 }
+
 h6 {
   display: block;
   text-align: center;
@@ -86,6 +89,7 @@ h6 {
   color: #8d9096;
   width: 100%;
 }
+
 .create-account {
   width: 102%;
   margin-top: 30px;
@@ -95,6 +99,7 @@ h6 {
   color: white;
   font-size: 16px;
 }
+
 footer {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -103,10 +108,12 @@ footer {
   font-size: 12px;
   line-height: 1.2rem;
 }
+
 footer ul li {
   display: inline;
   padding: 5px;
 }
+
 footer p {
   justify-content: center;
   color: #4b4a4a;
