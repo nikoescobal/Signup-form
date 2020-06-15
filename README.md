@@ -1,9 +1,5 @@
 # SİGNUP FORM
-
-<img src="Screenshot_1.png" alt="">
-
-<img src="Screenshot_5.png" alt="">
-
+<img src="/signlast.png" alt="">
 This project includes mint.com's signup page.
 
 ## Buit with
