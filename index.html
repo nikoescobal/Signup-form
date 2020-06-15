@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Sign Up Form</title>
     <link
       rel="stylesheet"
@@ -11,19 +16,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="navbar">
+    <nav class="navbar">
       <div>
         <p class="gray">Already have an Intuit account?</p>
         <a href="#">I forgot my User ID or Password</a>
       </div>
 
       <button class="signin-button" name="signin">Sign in</button>
-    </div>
+    </nav>
     <div id="brand-container">
       <img src="assets/intuit.png" alt="" />
-      <img id="brandlogos" src="assets/logos.png" alt="" />
     </div>
-    <div class="main-form">
+    <div class="flex justify-center">
+      <div class="flex align-center pad-h-5">
+        <img class="logo" src="assets/mint-transparent-icon.png" alt="" />
+        <p class="pad-h-5">mint</p>
+      </div>
+      <div class="flex align-center pad-h-5">
+        <img class="logo" src="assets/quickbooks-transparent-icon.jpg" alt="" />
+        <p class="pad-h-5">quickbooks</p>
+      </div>
+      <div class="flex align-center pad-h-5">
+        <img class="logo" src="assets/turbotax-transparent-icon.jpg" alt="" />
+        <p class="pad-h-5">turbotax</p>
+      </div>
+    </div>
+
+    <main class="main-form">
       <form>
         <div class="title-container">
           <h1 id="title">Create an Intuit account</h1>
@@ -58,7 +77,7 @@
         Invisible reCAPTCHA by <a href="">Google Privacy Policy</a>and
         <a href="">Terms of Use.</a><br />
       </h6>
-    </div>
+    </main>
     <footer>
       <ul>
         <li><a href="#">Legal</a></li>

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 html {
   background-color: rgb(236, 238, 241);
 }
@@ -125,10 +129,16 @@ footer p {
   padding-top: 25px;
 }
 
-#brandlogos {
+ul.intuit-logos {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+
+.brand-logos {
   margin: 0 auto;
   display: block;
-  width: 300px;
+  width: 5px;
 }
 
 .gray {
@@ -150,4 +160,24 @@ footer p {
 
 .medium {
   font-size: 14px;
+}
+
+.logo {
+  width: 30px;
+}
+
+.pad-h-5 {
+  padding: 0 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
