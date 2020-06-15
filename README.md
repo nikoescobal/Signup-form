@@ -1,46 +1,60 @@
 # SİGNUP FORM
+
 <img src="Screenshot_1.png" alt="">
+
 <img src="Screenshot_5.png" alt="">
 
-## Live Server
-https://rawcdn.githack.com/mcihadkurel/Signup-form/05108efcfd6c6385ea6ae07e51025889947e5da6/index.html
+This project includes mint.com's signup page.
+
 ## Buit with
 ____________________________________________________
 ### HTML
 ____________________________________________________
 
-<ul>
-<li>The project contains some unordered lists</li>
-<li>We used navbar for "Sign in" section.</li>
-<li>Project has different label types</li>
-</ul>
+
+-The project contains some unordered lists
+-Project has different label types
 
 ### &
 ### CSS
 ____________________________________________________
- <ul>
- <li>Footer element has line-height styling</li>
- <li>Form border has a bit radius</li>
- <li>Form elements has %100 width to border</li>
- </ul>
  
+  -Footer element has line-height styling
+ -Form border has a bit radius
+ -Form elements has %100 width to border
  
 
-## Authors 
-____________________________________________________
-#### Muhammed Cihad Kurel
-<ul>
-<li>Github: [@mcihadkurel](https://github.com/mcihadkurel)</li>
-<li>Twitter: [@mece_ka](https://twitter.com/mece_ka)</li>
-<li>LinkedIn: [@muhammed](linkedin.com/in/muhammed-cihad-8187581a8/)</li>
-</ul>
-____________________________________________________
+## Live Demo
 
-#### Nikolas Escobal
-<ul>
-<li>Github:[@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)</li>
-<li>Twitter:[@nikoescobal](https://twitter.com/nikoescobal)</li>
-<li>LinkedIn:[@nikolas-joseph-escobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)</li>
-</ul>
-____________________________________________________
+[Live Demo Link](https://rawcdn.githack.com/mcihadkurel/Signup-form/05108efcfd6c6385ea6ae07e51025889947e5da6/index.html)
 
+
+
+## Authors
+
+👤 **Muhammed Cihad Kurel**
+
+- Github:[@mcihadkurel](https://github.com/mcihadkurel)
+- Twitter:[@mece_ka](https://twitter.com/mece_ka)
+- LinkedIn:[Muhammed Cihad Kurel](https://www.linkedin.com/in/muhammed-cihad-8187581a8/)
+
+👤 **Nikolas Eskobal**
+
+- Github:[@nikoeskobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)
+- Twitter:[@nikoeskobal](https://twitter.com/nikoescobal)
+- LinkedIn:[Nikolas Eskobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project has no license.
