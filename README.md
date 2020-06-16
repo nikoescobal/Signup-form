@@ -1,4 +1,4 @@
-# SİGNUP FORM
+# SIGNUP FORM
 <img src="/signlast.png" alt="">
 This project includes mint.com's signup page.
 
@@ -36,9 +36,9 @@ ____________________________________________________
 
 👤 **Nikolas Eskobal**
 
-- Github:[@nikoeskobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)
-- Twitter:[@nikoeskobal](https://twitter.com/nikoescobal)
-- LinkedIn:[Nikolas Eskobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)
+- Github:[@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)
+- Twitter:[@nikoescobal](https://twitter.com/nikoescobal)
+- LinkedIn:[Nikolas Escobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)
 
 ## 🤝 Contributing
 
