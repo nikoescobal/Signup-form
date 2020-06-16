@@ -8,16 +8,16 @@ ____________________________________________________
 ____________________________________________________
 
 
--The project contains some unordered lists
--Project has different label types
+- The project contains some unordered lists
+- Project has different label types
 
 ### &
 ### CSS
 ____________________________________________________
  
-  -Footer element has line-height styling
- -Form border has a bit radius
- -Form elements has %100 width to border
+ - Footer element has line-height styling
+ - Form border has a bit radius
+ - Form elements has %100 width to border
  
 
 ## Live Demo
